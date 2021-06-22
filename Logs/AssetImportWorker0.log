@@ -15,11 +15,11 @@ C:/Users/ofeka/Desktop/Job Related/Unity Projects/HeistGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62851
+53016
 Successfully changed project path to: C:/Users/ofeka/Desktop/Job Related/Unity Projects/HeistGame
 C:/Users/ofeka/Desktop/Job Related/Unity Projects/HeistGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 71.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 68.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -31,56 +31,214 @@ Direct3D:
     Vendor:   
     VRAM:     8031 MB
     Driver:   27.21.14.6259
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001833 seconds.
+Registered in 0.001853 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.75 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 70.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.728 seconds
+- Completed reload, in  1.588 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004134 seconds.
+Registered in 0.004503 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 72.17 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.955 seconds
+- Completed reload, in  1.622 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2692 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.0 MB.
-System memory in use after: 118.2 MB.
+Unloading 3309 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.9 MB.
+System memory in use after: 153.7 MB.
 
-Unloading 54 unused Assets to reduce memory usage. Loaded Objects now: 3089.
-Total: 3.706600 ms (FindLiveObjects: 0.367200 ms CreateObjectMapping: 0.069200 ms MarkObjects: 1.898800 ms  DeleteObjects: 1.369700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffd2c44ffeb50c574abb5d0c4453328') in 0.040272 seconds
-  Import took 0.044651 seconds .
+Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 3740.
+Total: 3.433300 ms (FindLiveObjects: 0.402600 ms CreateObjectMapping: 0.084600 ms MarkObjects: 2.621300 ms  DeleteObjects: 0.323600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.090166 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffd2c44ffeb50c574abb5d0c4453328') in 0.004671 seconds
-  Import took 0.009427 seconds .
+  path: Assets/Example/Settings
+  artifactKey: Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example/Settings using Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadd7ca10b5bf32e886eec457cf073a7') in 0.011011 seconds
+  Import took 0.016038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Example/Scripts
+  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a913a0049096cde5d6a727232f232f') in 0.006442 seconds
+  Import took 0.010762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Example/Scenes
+  artifactKey: Guid(eb3306d72f7a89a4885ff174d9cda691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example/Scenes using Guid(eb3306d72f7a89a4885ff174d9cda691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c3ae21e9b8c37a97510cecd60dab79') in 0.006657 seconds
+  Import took 0.011278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012968 seconds.
+  path: Assets/Example/Scenes
+  artifactKey: Guid(eb3306d72f7a89a4885ff174d9cda691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Example/Scenes using Guid(eb3306d72f7a89a4885ff174d9cda691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c3ae21e9b8c37a97510cecd60dab79') in 0.002274 seconds
+  Import took 0.007251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.367947 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Fonts/ARIAL.TTF
+  artifactKey: Guid(4f0e974fe3eef044db492ea4b4ff3917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Fonts/ARIAL.TTF using Guid(4f0e974fe3eef044db492ea4b4ff3917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff366421d3b0fbe30ba1f7ee53e15b1') in 0.185844 seconds
+  Import took 0.191252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.946056 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Textures/Beam01.PNG
+  artifactKey: Guid(ace27fed48afe744a9994642e93b130e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Textures/Beam01.PNG using Guid(ace27fed48afe744a9994642e93b130e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc50ea37bf2bb41b157998504934cd12') in 0.021625 seconds
+  Import took 0.027356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Textures/Gluie03_5x5.PNG
+  artifactKey: Guid(f0603634ca9c4584ca19ef6ea0bd2338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Textures/Gluie03_5x5.PNG using Guid(f0603634ca9c4584ca19ef6ea0bd2338) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bad83fa89573be40c404bc3f0a19cf4') in 0.017982 seconds
+  Import took 0.023450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Textures/Smoke01_6x5.png
+  artifactKey: Guid(d09e9d666ebd6de40a62e5d0dd9d0a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Textures/Smoke01_6x5.png using Guid(d09e9d666ebd6de40a62e5d0dd9d0a09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbee313647dfbd24d66ba6e247a29fa') in 0.023892 seconds
+  Import took 0.029249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Textures/Gluie01_5x5.png
+  artifactKey: Guid(51af013cf9f66564f90a2358c75e9863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Textures/Gluie01_5x5.png using Guid(51af013cf9f66564f90a2358c75e9863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362c3a7bdbdb93960ff3f540b0036f3a') in 0.010990 seconds
+  Import took 0.016656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Textures/Gluie02_5x5.png
+  artifactKey: Guid(f1e6482206cc683468dd7363a00c96ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Textures/Gluie02_5x5.png using Guid(f1e6482206cc683468dd7363a00c96ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a183655dd1e3a3586dcb4566cda4ea') in 0.015289 seconds
+  Import took 0.020512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.380364 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Materials/Beams
+  artifactKey: Guid(151f01bfca701a04181ee80b33d9d6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Materials/Beams using Guid(151f01bfca701a04181ee80b33d9d6aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f52ee4392d5a936b6c2398b3ae57c8') in 0.006281 seconds
+  Import took 0.011362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070873 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Materials/Beams/Beam01Dark_ABScroll02.mat
+  artifactKey: Guid(9d5385ee54539684aa84ded9c05cd0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Materials/Beams/Beam01Dark_ABScroll02.mat using Guid(9d5385ee54539684aa84ded9c05cd0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910b3466134ec9c668dcbf427a563ab3') in 0.021200 seconds
+  Import took 0.026567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Materials/Beams/Beam01White_Scroll.mat
+  artifactKey: Guid(bc0fb958987b0ee46af2709346913476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Materials/Beams/Beam01White_Scroll.mat using Guid(bc0fb958987b0ee46af2709346913476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a50eff48f121227d101e8c509d83b9') in 0.016099 seconds
+  Import took 0.020753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Materials/Beams/Beam01White.mat
+  artifactKey: Guid(621d42946f0a3784f97992bab6c31e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Materials/Beams/Beam01White.mat using Guid(621d42946f0a3784f97992bab6c31e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7381b3175ccb37de5e5defec530b41') in 0.013865 seconds
+  Import took 0.019384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Materials/Beams/Beam01Dark_HRQ.mat
+  artifactKey: Guid(f5880fb0ca64815438fbffe057d23d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Materials/Beams/Beam01Dark_HRQ.mat using Guid(f5880fb0ca64815438fbffe057d23d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c2c6b980b24e07f72d070fa5c2a40c') in 0.038907 seconds
+  Import took 0.043879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Materials/Beams/Beam01Grey.mat
+  artifactKey: Guid(d78a39cf10d58ec41a56ab87236186bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Materials/Beams/Beam01Grey.mat using Guid(d78a39cf10d58ec41a56ab87236186bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73f20b342dc9a901e135917514bbef1') in 0.013455 seconds
+  Import took 0.018789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.132540 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Shaders/AlphaBlended_EdgeSoft.shader
+  artifactKey: Guid(cba1b43d7be1cf74b9f70ac3708b85fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Shaders/AlphaBlended_EdgeSoft.shader using Guid(cba1b43d7be1cf74b9f70ac3708b85fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702bff3fa82ddefb956fd2108b771d9b') in 0.008899 seconds
+  Import took 0.014388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012230 seconds.
+  path: Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Shaders/AlphaBlended_EdgeSoft.shader
+  artifactKey: Guid(cba1b43d7be1cf74b9f70ac3708b85fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Unique_Lasers_Volume_1/Shaders/AlphaBlended_EdgeSoft.shader using Guid(cba1b43d7be1cf74b9f70ac3708b85fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702bff3fa82ddefb956fd2108b771d9b') in 0.002549 seconds
+  Import took 0.007588 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004785 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.162 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.3 MB.
+System memory in use after: 148.2 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 3829.
+Total: 3.401200 ms (FindLiveObjects: 0.413500 ms CreateObjectMapping: 0.081200 ms MarkObjects: 2.656000 ms  DeleteObjects: 0.249100 ms)
 
