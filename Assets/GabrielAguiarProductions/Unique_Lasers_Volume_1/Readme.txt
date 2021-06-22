@@ -25,6 +25,9 @@ X/Z - Increase/Decrease Size
 
 
 
+
+
+
 LASER SCRIPT - DESCRIPTION:
 
 Options:
@@ -64,6 +67,9 @@ Options:
 
 
 
+
+
+
 PARTICLE SYSTEM CONTROLLER SCRIPT - DESCRIPTION:
 
 Options:
@@ -95,6 +101,8 @@ Warnings:
 1) Don't change the name of the VFX after you have pressed 'Apply'. Otherwise 'Reset' will not work since it wouldn't be able to find the original settings.
 2) You can change the name of the VFX BUT you must go to the respective 'Original Settings' folder and copy paste the exact same name of the VFX. Watch video for a demonstration.
 3) 'Fill Lists' won't work if the gameobject contains a Particle System and a Trail (at least for now)
+
+
 
 
 
