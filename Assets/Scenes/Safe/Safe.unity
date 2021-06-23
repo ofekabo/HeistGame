@@ -46259,6 +46259,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LaserBeam05
       objectReference: {fileID: 0}
+    - target: {fileID: 1777025054757276, guid: 9ad47d02e22ad524c85b197b8c0aaff8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4015997837881264, guid: 9ad47d02e22ad524c85b197b8c0aaff8, type: 3}
       propertyPath: m_RootOrder
       value: 1
