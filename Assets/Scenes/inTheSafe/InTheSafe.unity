@@ -3796,7 +3796,7 @@ Camera:
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
-  m_FOVAxisMode: 0
+  m_FOVAxisMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
   m_FocalLength: 50
@@ -3808,7 +3808,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 90
+  field of view: 102.68038
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -7181,7 +7181,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1286905393}
-  m_RootOrder: 320
+  m_RootOrder: 252
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &695865572
 Light:
@@ -9568,7 +9568,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1286905393}
-  m_RootOrder: 323
+  m_RootOrder: 266
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &939982889
 Light:
@@ -13151,6 +13151,7 @@ Transform:
   - {fileID: 1597550781}
   - {fileID: 1113125622}
   - {fileID: 227951018}
+  - {fileID: 1560885759}
   - {fileID: 44974060}
   - {fileID: 1398152901}
   - {fileID: 1313521524}
@@ -13221,6 +13222,7 @@ Transform:
   - {fileID: 417940801}
   - {fileID: 1209385585}
   - {fileID: 1366381542}
+  - {fileID: 695865571}
   - {fileID: 1126372842}
   - {fileID: 1020869965}
   - {fileID: 739058853}
@@ -13234,7 +13236,7 @@ Transform:
   - {fileID: 1019179300}
   - {fileID: 440834857}
   - {fileID: 44939112}
-  - {fileID: 1560885759}
+  - {fileID: 939982888}
   - {fileID: 1277374455}
   - {fileID: 1163259712}
   - {fileID: 1151260223}
@@ -13290,10 +13292,8 @@ Transform:
   - {fileID: 1323042012}
   - {fileID: 1120901733}
   - {fileID: 60053419}
-  - {fileID: 695865571}
   - {fileID: 1372910527}
   - {fileID: 1921102125}
-  - {fileID: 939982888}
   - {fileID: 1539505882}
   - {fileID: 2115417413}
   - {fileID: 1528763541}
@@ -17014,7 +17014,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1286905393}
-  m_RootOrder: 264
+  m_RootOrder: 181
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &1560885760
 Light:
@@ -26956,11 +26956,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
-  m_WarningMessage: "\nBinding warning: Some generic clip(s) animate transforms that
-    are already bound by a Humanoid avatar. These transforms can only be changed
-    by Humanoid clips.\n\tTransform 'Elbow_R'\n\tTransform 'Neck'\n\tTransform 'Elbow_L'\n\tTransform
-    'Head'\n\tTransform 'Hand_L'\n\tTransform 'Shoulder_L'\n\tTransform 'Shoulder_R'\n\tTransform
-    'Hand_R'\n\tTransform 'Elbow_R'\n\tTransform 'Neck'\n\tand more ..."
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
